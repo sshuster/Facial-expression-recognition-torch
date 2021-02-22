@@ -8,7 +8,6 @@ def face_detect(image):
     faces = cascade_classifier.detectMultiScale(image, scaleFactor = 1.3, minNeighbors = 5)
     if not len(faces) > 0:
         print ("Can not detect face information")
-        exit()
-        return None
+        return []
     else:
         return faces
