@@ -79,6 +79,13 @@ python video_demo.py --trained_model path/to/the/trained/model --input path/to/i
 
 Some example in folder ```images```
 
+## Create simple app
+Install `streamlit` and run file `app` to facial expression recognition and face detection using Haarcascade:
+
+```
+streamlit run app.py
+```
+
 ## TODO
 I hope to complete the to-do list in the near future:
 * [x] Improve model face detection and classifier
